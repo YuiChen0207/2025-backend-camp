@@ -76,6 +76,8 @@ networks:
 
 
 
-# image = postgres 環境
-# volume = postgres 寫入的資料庫檔案
-# 假設你刪掉 container → DB 資料還在 pgData 這個 volume
+image = postgres 環境
+
+volume = postgres 寫入的資料庫檔案
+
+假設你刪掉 container → DB 資料還在 pgData 這個 volume
